@@ -98,7 +98,3 @@ git push origin v0.1.1
 
 ```
 
----
-
-می‌خوای من همین فایل `README.md` رو مستقیم برات بسازم و commit & push کنم توی ریپوی `cea-quchan/eitaa-api-prototype`، یا فقط همین متن رو خودت دستی کپی می‌کنی؟
-```
