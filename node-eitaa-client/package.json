@@ -1,14 +1,22 @@
 {
-  "name": "eitaa-client",
+  "name": "@cea-quchan/eitaa-client",        
   "version": "0.1.0",
-  "description": "Prototype client library for the Eitaa messaging platform",
+  "description": "Prototype Eitaa client (Node.js/TS) with clean API and mock transport",
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/examples/sample.js"
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "node -e \"console.log('no tests yet')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cea-quchan/eitaa-api-prototype.git",
+    "directory": "node-eitaa-client"
   },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.0"
   }
 }
