@@ -1,0 +1,14 @@
+{
+  "name": "eitaa-client",
+  "version": "0.1.0",
+  "description": "Prototype client library for the Eitaa messaging platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/sample.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
